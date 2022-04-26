@@ -4,7 +4,7 @@ import numpy as np
 import pydeck as pdk
 import plotly.express as px
 st.header("DASHBOARD FOR ACCIDENT VISUALIZATION IN MAURITIUS")
-DATA_URL = ("D:/Accident_data/cases.csv")
+DATA_URL = ("cases.csv")
 
 @st.cache(persist=True)
 def load_data(nrows):
